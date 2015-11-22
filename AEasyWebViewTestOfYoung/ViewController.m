@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"file:///Users/linafu/Downloads/01_Code_COMPLETE/index.html"]]];
     //file:///Users/linafu/Downloads/01_Code_COMPLETE/index.html
     [self.webView reload];
 }
